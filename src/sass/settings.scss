@@ -1,0 +1,30 @@
+// Style de base
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 335px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+

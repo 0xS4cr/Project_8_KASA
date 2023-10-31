@@ -1,0 +1,67 @@
+@import "../variables.scss";
+
+.header {
+    width: 80%;
+    padding: 45px;
+    color: $priColor;
+    text-align: right;
+    font-family: $fontFamily;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 45px 0 50px 0;
+}
+
+.header__ctn {
+display: flex;
+height: 68px;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 3vh;
+
+        }
+}
+
+.active  {
+    border-bottom: 3px solid $priColor;
+  }
+  
+
+
+@media (max-width: 600px) {
+    .header__ctn{
+        position: relative;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+        height: 40px;
+    }
+    .header img {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 120px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .header__ctn{
+        font-size: 14px;
+    }
+   
+    .header img {
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 100px;
+    }
+    
+}

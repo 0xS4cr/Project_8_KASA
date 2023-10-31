@@ -1,0 +1,69 @@
+.fiches {
+    height: 100%;
+}
+
+.information__ctn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.information__ctn h2{
+    margin: 0;
+    padding: 0;
+    color: $priColor;
+    font-family: $fontFamily;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.host__ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.information__ctn p{
+    margin: 0;
+    padding: 0;
+    color: $priColor;
+    font-family: $fontFamily;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.hostId{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.host__ctn img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+    .information__ctn {
+       flex-direction: column;
+    }
+       
+    
+    .host__ctn{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-top: 15px;
+    } 
+}
+
+
+

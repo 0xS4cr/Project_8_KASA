@@ -1,0 +1,17 @@
+.pillules {
+    display: flex;
+    gap: 20px;
+    height: 25px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pillule {
+    background-color: $priColor;
+    color: $txtWhite;
+    border-radius: 12px;
+    padding: 5px 20px 5px 20px;;
+
+
+}
+

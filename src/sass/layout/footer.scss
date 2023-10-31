@@ -1,0 +1,29 @@
+@import "../variables.scss";
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: $bgcFooter;
+    color: $txtWhite;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .footer__ctn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+    }
+    
+    .footer__ctn p {
+        word-wrap: break-word;
+    }
+}
